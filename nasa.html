@@ -23,10 +23,10 @@ Hello World from github.io<br />
 This is line 2<br />
 
 <script>
-$.getJSON("http://data.nasa.gov/data.json",
-        function(data){
-         	console.log(data);
-         });
+$.get(
+    "http://data.nasa.gov/data.json",
+    function(data) { console.log(data); },
+);
 </script>
 </body>
 
