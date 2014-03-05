@@ -3,6 +3,8 @@ body {
 	background-color: #ffffee;
 }
 
-.container {
-	background-image: url("/images/IMG_3384.JPG"); 
+.jumbotron {
+	color: white;
+	background-position: -700px -800px;
+	background-image: url("/images/IMG_3384.jpg"); 
 }
