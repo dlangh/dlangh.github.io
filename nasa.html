@@ -23,24 +23,10 @@ Hello World from github.io<br />
 This is line 2<br />
 
 <script>
-var jqxhr = $.getJSON( "http://data.nasa.gov/data.json", function() {
-console.log( "success" );
-
-})
-.done(function() {
-console.log( "second success" );
-})
-.fail(function() {
-console.log( "error" );
-})
-.always(function() {
-console.log( "complete" );
-});
-// Perform other work here ...
-// Set another completion function for the request above
-jqxhr.complete(function() {
-console.log( jqxhr);
-});
+$.getJSON("http://data.nasa.gov/data.json",
+        function(data){
+         	console.log(data);
+         });
 </script>
 </body>
 
